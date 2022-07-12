@@ -1,0 +1,441 @@
+/*
+  Theme Name: Bespoke - Creative One Page HTML5 Template 
+  Theme URL: http://nasfactor.com/themes/bespoke/
+  Author: nasirwd
+  Author URI: http://nasfactor.com/
+  Description: Bespoke - Creative One Page HTML5 Template 
+  Version: 1.0
+*/
+
+/*=======================================================================
+[Table of contents]
+=========================================================================
+[01] TEMPLATE FONTS
+
+
+==========================================================================*/
+
+/*=======================================================================
+[01] TEMPLATE FONTS
+=========================================================================*/
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700');
+.light{
+    font-weight: 300;
+}
+.normal{
+    font-weight: 400;   
+}
+.medium{
+    font-weight: 500;
+}
+.semi_Bold{
+    font-weight: 600;
+}
+.bold{
+    font-weight: 700;
+}
+
+/*=======================================================================
+[02] NORMALIZATION CSS
+=========================================================================*/
+htm,body{
+    color: #999999;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+} 
+a{
+    color: #333333;
+    transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -webkit-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+}
+a:hover{
+    text-decoration: none;
+    color: #000;
+}
+a:focus{
+    outline: 0;
+    text-decoration: none;
+}
+ul,
+ol{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+button{
+    border: none;
+    transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -webkit-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    margin: 0 0 15px;
+}
+h1 span, h2 span, h3 span, h4 span, h5 span, h6 span{
+    color: #ffc112;
+}
+.color_white{
+    color: #fff;
+}
+.color_yellow{
+    color: #fedd00
+}
+.magenta{
+    color: #fd0060;
+}
+h1.lead{
+    font-size: 160px;
+    letter-spacing: 0;
+    line-height: 180px;
+    font-weight: 700;
+}
+h2.lead{
+    font-size: 80px;
+    letter-spacing: 0;
+    line-height: 90px;
+    font-weight: 700;
+}
+h3.lead{
+    font-size: 50px;
+    letter-spacing: 0;
+    line-height: 60px;
+}
+h4.lead{
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: 50px;
+}
+h5.lead{
+    font-size: 34px;
+    letter-spacing: 0;
+    line-height: 40px;
+}
+h6.lead{
+    font-size: 20px;
+    letter-spacing: 8px;
+    line-height: 36px;
+}
+
+h1{
+    font-size: 30px;
+    line-height: 50px;
+}
+h2{
+    font-size: 26px;
+    letter-spacing: 0;
+    line-height: 36px;
+}
+h3{
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 40px;
+}
+h4{
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 34px;
+}
+h5{
+    font-size: 16px;
+    letter-spacing: 6.4px;
+    line-height: 20px;
+}
+h6{
+    font-size: 14px;
+    letter-spacing: 5.6px;
+    line-height: 28px;
+}
+.imagesDiv{
+    position: relative;
+    overflow: hidden;
+}
+.imagesDiv img{
+    width: 100%;
+    height: auto;
+}
+blockquote {
+    border-left: 2px solid #fd0060;
+    margin: 60px 0 50px;
+    padding: 0 65px 0 20px;
+}
+blockquote p{
+    font-size: 22px;
+    color: #000000;   
+}
+
+@media (min-width: 1440px) {
+    .container {
+        width: 1322px;
+    }
+}
+*:focus{
+    outline: none;
+}
+/*=======================================================================
+[03] Margin and padding setup
+=========================================================================*/
+.noPadding{
+    padding: 0px !important;
+}
+.noPaddingLeft{
+    padding-left: 0px !important;
+}
+.noPaddingTop{
+    padding-top: 0px !important;
+}
+.noPaddingRight{
+    padding-right: 0px !important;
+}
+.noPaddingBottom{
+    padding-bottom: 0px !important;
+}
+.noMargin{
+    margin: 0px !important;
+}
+.noMarginLeft{
+    margin-left: 0px !important;
+}
+.noMarginTop{
+    margin-top: 0px !important;
+}
+.noMarginRight{
+    margin-right: 0px !important;
+}
+.noMarginBottom{
+    margin-bottom: 0px !important;
+}
+
+/*=======================================================================
+[04] SECTION SETUP
+=========================================================================*/
+.sectionTitle {
+    margin-bottom: 33px;
+}
+.sectionTitle h5{
+    margin-bottom: 20px;
+}
+.sectionTitle p{
+    font-size: 24px;
+    color: #000000;
+    line-height: 40px;
+    font-weight: 300;
+    padding: 0 185px;
+}
+.bigTitle{
+    margin-bottom: 122px;
+}
+.bigTitle h2{
+    margin-bottom: 38px;
+}
+.bigTitle h5{
+    margin-bottom: 31px;
+}
+.bigTitle2 {
+    margin-bottom: 92px;
+}
+.bigTitle2 h5{
+    margin-bottom: 45px;
+}
+.bigTitle3{
+    margin-bottom: 123px;
+}
+.bggreay{
+    background: #f9f9f9;
+}
+.bgblack{
+    background: #1b1b1b;
+}
+/*=======================================================================
+[05] TEMPLATE BUTTON STYLE
+=========================================================================*/
+.bes_button{
+    background: -moz-linear-gradient(358deg, #36146a 35%, #581068 46%, #640E67 50%, #ff0060 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(35%, #36146a), color-stop(46%, #581068), color-stop(50%, #640E67), color-stop(100%, #ff0060)); /* safari4+,chrome */
+    background: -webkit-linear-gradient(358deg, #36146a 35%, #581068 46%, #640E67 50%, #ff0060 100%);
+    background: -o-linear-gradient(358deg, #36146a 35%, #581068 46%, #640E67 50%, #ff0060 100%);
+    background: -ms-linear-gradient(358deg, #36146a 35%, #581068 46%, #640E67 50%, #ff0060 100%);
+    background: linear-gradient(92deg, #36146a 35%, #581068 46%, #640E67 50%, #ff0060 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#36146a', endColorstr='#ff0060',GradientType=1 );
+    height: 50px;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 0 48px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2.8px;
+    line-height: 46px;
+}
+.bes_button i{
+    margin-left: 18px;
+    font-size: 20px;
+    position: relative;
+    top: 2px;
+}
+.bes_button:hover{
+    background: -moz-linear-gradient(0deg, #fd0060 0%, #9B0A65 50%, #3a146a 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, #fd0060), color-stop(50%, #9B0A65), color-stop(100%, #3a146a));
+    background: -webkit-linear-gradient(0deg, #fd0060 0%, #9B0A65 50%, #3a146a 100%);
+    background: -o-linear-gradient(0deg, #fd0060 0%, #9B0A65 50%, #3a146a 100%); 
+    background: -ms-linear-gradient(0deg, #fd0060 0%, #9B0A65 50%, #3a146a 100%); 
+    background: linear-gradient(90deg, #fd0060 0%, #9B0A65 50%, #3a146a 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fd0060', endColorstr='#3a146a',GradientType=1 );
+    color: #fff;
+}
+.bes_button2{
+    height: 50px;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 0 48px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2.8px;
+    line-height: 46px;
+    background: #fb0060;
+}
+.bes_button2 i{
+    margin-left: 18px;
+    font-size: 20px;
+    position: relative;
+    top: 2px;
+}
+.bes_button2:hover{
+    color: #fff;
+    background: #1d1d1d;
+}
+.bes_button3 {
+    -moz-align-content: center;
+    -webkit-align-content: center;
+    -o-align-content: center;
+    -ms-align-content: center;
+    align-content: center;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    -o-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    background: #fb0060 none repeat scroll 0 0;
+    border-radius: 30px;
+    color: #fff;
+    display: inline-flex;
+    font-size: 14px;
+    font-weight: 600;
+    height: 50px;
+    letter-spacing: 0;
+    line-height: 0.8px;
+    padding: 0 90px;
+    text-transform: uppercase;
+    margin-right: 60px;
+}
+.bes_button3:hover{
+    background: #1d1d1d;
+    color: #fff;
+}
+.bes_button4 {
+    -moz-align-content: center;
+    -webkit-align-content: center;
+    -o-align-content: center;
+    -ms-align-content: center;
+    align-content: center;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    -o-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    background: #000;
+    border-radius: 30px;
+    color: #fff;
+    display: inline-flex;
+    font-size: 14px;
+    font-weight: 600;
+    height: 49px;
+    letter-spacing: 2.8px;
+    line-height: 0.8px;
+    padding: 0 46px;
+    text-transform: uppercase;
+}
+.bes_button4:hover{
+    background: #fb0060;
+    color: #fff;
+}
+
+/*=======================================================================
+[06] TEMPLATE OVERLAY
+=========================================================================*/
+.overlay,
+.overlayw10{
+    position: relative;
+}
+.overlay:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: -moz-linear-gradient(0deg, rgba(54,20,106,.9) 0%, rgba(154,10,101,.9) 50%, rgba(255,0,96,.9) 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(54,20,106,.9)), color-stop(50%, rgba(154,10,101,.9)), color-stop(100%, rgba(255,0,96,.9)));
+    background: -webkit-linear-gradient(0deg, rgba(54,20,106,.9) 0%, rgba(154,10,101,.9) 50%, rgba(255,0,96,.9) 100%);
+    background: -o-linear-gradient(0deg, rgba(54,20,106,.9) 0%, rgba(154,10,101,.9) 50%, rgba(255,0,96,.9) 100%);
+    background: -ms-linear-gradient(0deg, rgba(54,20,106,.9) 0%, rgba(154,10,101,.9) 50%, rgba(255,0,96,.9) 100%);
+    background: linear-gradient(90deg, rgba(54,20,106,.9) 0%, rgba(154,10,101,.9) 50%, rgba(255,0,96,.9) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#36146a', endColorstr='#ff0060',GradientType=1 );
+}
+.overlayw10:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(251, 251, 251, .9);
+}
+
+/*=======================================================================
+[07] PRELOADER
+=========================================================================*/
+.preloader {
+    position: fixed;
+    width: 100%;
+    z-index: 1000091;
+    right: 0;
+    left: 0;
+    background: #fff;
+    bottom: 0;
+    top: 0;
+}
+.preloader .loader{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+.preloader .loader img{
+    width: 100%;
+    height: auto;
+}
+.preloader .loader {
+    height: 200px;
+    margin: auto;
+    width: 200px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}

@@ -1,0 +1,947 @@
+/*
+  Theme Name: Bespoke - Creative One Page HTML5 Template 
+  Theme URL: http://nasfactor.com/themes/bespoke/
+  Author: nasirwd
+  Author URI: http://nasfactor.com/
+  Description: Bespoke - Creative One Page HTML5 Template 
+  Version: 1.0
+*/
+
+/*=======================================================================
+[Table of contents]
+=========================================================================
+[01] HEADER
+
+
+==========================================================================*/
+
+@media(min-width: 1460px){
+    .mainMenu ul li:hover ul.sub-menu{
+        top: 55px;
+    } 
+}
+
+@media(min-width: 1280px) and (max-width:1440px){
+    .mainMenu ul li{
+        margin-right: 25px;
+    }
+    .mainMenu ul li a,
+    .callus p{
+        letter-spacing: 1px;
+        font-size: 13px;
+    }
+    h1.lead{
+        font-size: 113px;
+    }
+    .abBigtitle h1.lead{
+        position: absolute;
+        top: -110px;
+        font-size: 112px;
+    }
+
+    .testmonial {
+        margin-left: 50px;
+        margin-top: 90px;
+        position: relative;
+    }
+    .testmonial::before {
+        background: #fd0060;
+        left: -174px;
+        width: 150px;
+    }
+    .singleWork{
+        margin: 0 15px;
+    }
+    #workCarousel .slick-prev{
+        left: 80px;
+    }
+    #workCarousel .slick-next{
+        right: 80px;
+    }
+
+    .chooseUsContent {
+        padding-right: 0;
+    }
+    .textWidget {
+        padding-right: 0;
+    }
+    .newsletterwid{
+        padding-left: 0;
+    }
+    .fooInfo p{
+        letter-spacing: 2px;
+        display: block;
+    }
+    .blogDec {
+        padding: 61px 30px 45px 41px;
+    }
+    .bperaDiv {
+        min-height: 217px;
+    }
+    .wdContent{
+        padding: 0 100px;
+    }
+    .rewdContent {
+        padding: 135px 70px 0;
+        text-align: center;
+    }
+    .journalImg img{
+        width: auto;
+        height: 100%;
+    }
+    .chooseUsContent.home_page3{
+        padding-top: 100px
+    }
+    .parTwoContent {
+        height: 540px;
+        padding: 62px 50px;
+    }
+    .parallaxThreeCon h2{
+        font-size: 60px;
+        line-height: 70px;
+    }
+    .parallaxThreeCon h1{
+        font-size: 90px;
+        line-height: 100px;
+    }
+
+
+}
+
+@media(min-width:768px) and (max-width: 990px){
+    .header{
+        padding: 37px 15px 23px;
+    }
+    .mainMenu ul li a{
+        letter-spacing: 0;
+    }
+    .logo img{
+        width: 100%;
+        height: auto;
+    }
+    .mainMenu ul li{
+        margin-right: 18px;
+    }
+    .header.fixedHeader{
+        padding: 25px 15px 18px;
+    }
+    .logo {
+        position: relative;
+        top: 0;
+    }
+    .revCon h2.lead{
+        text-align: center;
+    }
+    .revCon h5 {
+        position: relative;
+        top: -80px;
+    }
+    .revCon.revBtn {
+        position: relative;
+        top: 30px;
+    }
+    .abBigtitle h1.lead {
+        font-size: 63px;
+        top: -94px;
+    }
+    .singleService{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .serImg{
+        width: 130px;
+        height: 130px;
+    }
+    .epr200 {
+        padding-right: 0;
+    }
+    .testmonial {
+        margin-left: 0;
+        margin-top: 75px;
+    }
+    .col-sm-3.sm_class {
+        padding: 0 !important;
+    }
+    .teamBig {
+        padding-top: 100px;
+    }
+    .sectionTitle p{
+        padding: 0;
+    }
+    .singleWork img {
+        height: 60vh;
+        width: auto;
+    }
+    #workCarousel .slick-next {
+        right: 70px;
+    }
+    #workCarousel .slick-prev {
+        left: 70px;
+    }
+    .chooseUsImg {
+        margin-top: 0;
+    }
+    #testmonialCaro{
+        width: 100%;
+    }
+    .blogDec {
+        padding: 40px 10px 35px 10px;
+    }
+    .saypaddingl{
+        padding-left: 30px;
+    }
+    .saypaddingR {
+        padding-right: 30px;
+    }
+    .contactForm {
+        padding: 0 50px;
+    }
+    .textWidget {
+        padding-right: 0;
+    }
+    .footer {
+        padding: 72px 15px 55px;
+    }
+    .newsletter input[type="email"]{
+        font-size: 14px;
+    }
+    .chooseUsContent {
+        padding-right: 0;
+    }
+    .single_folio .folio_hover2 h3{
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .single_folio .folio_hover2 h6{
+        font-size: 12px;
+        line-height: 1;
+        letter-spacing: 1px;
+    }
+    .blogDec {
+        padding: 61px 25px 45px;
+    }
+    .singleBlog2.bigpost .blogDec {
+        padding: 61px 25px 45px;
+    }
+    .singleBlog2.bigpost .blogTitle a {
+        font-size: 26px;
+        font-weight: 500;
+        line-height: 36px;
+    }
+    .header.workDetail {
+        padding: 21px 15px 31px;
+        position: relative;
+    }
+    .workDetail.isSticky.fixedHeader {
+        padding: 21px 15px;
+        position: fixed;
+    }
+    .workMeta p{
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .workMetas .bes_button3{
+        margin-right: 0;
+        padding: 0 40px;
+    }
+    .wdContent{
+        padding: 0 50px;
+    }
+    .rewdContent {
+        padding: 60px 50px;
+        text-align: center;
+    }
+    .newsletterwid{
+        padding-left: 0;
+    }
+    .nexprevPagination{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .paginationnp h1{
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .paginationnp{
+        padding-left: 210px;
+    }
+    .paginationnp.right{
+        padding-right: 210px;
+    }
+    .contactForm.noPaddingLeft.noPaddingRight{
+        padding-right: 15px !important;
+        padding-left: 15px !important;
+    }
+    .parallaxThreeCon {
+        padding: 0 50px;
+    }
+    .parallaxThreeCon h2 {
+        font-size: 35px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+    .parallaxThreeCon h1 {
+        font-size: 60px;
+        line-height: 50px;
+    }
+    .signatureandname h4,
+    .signatureandname img{
+        float: none;
+    }
+    .parTwoContent h1{
+        font-size: 100px;
+        line-height: 100px
+    }
+    .typewrite > .wrap::after{
+        height: 62px;
+    }
+    .mainMenu ul ul.sub-menu{
+        width: 180px;
+    }
+
+}
+
+@media(min-width: 990px) and (max-width: 1280px){
+    .logo{
+        top: 0;
+    }
+    .header{
+        padding: 37px 30px 23px;
+    }
+    .isSticky.fixedHeader{
+        padding: 25px 15px 18px;
+    }
+    .mainMenu ul li a{
+        letter-spacing: 0;
+        font-size: 13px;
+    }
+    .mainMenu ul li{
+        margin-right: 20px;
+    }
+    .col-md-2.md_class{
+        padding-left: 0;
+    }
+    .callus p{
+        font-size: 13px;
+        letter-spacing: 0;
+    }
+    .abBigtitle h1.lead {
+        font-size: 85px;
+        top: -95px;
+    }
+    .testmonial {
+        margin-left: 0;
+        margin-top: 50px;
+    }
+    .chooseUsContent {
+        padding-right: 0;
+    }
+    .contactForm {
+        padding: 0 100px;
+    }
+    .textWidget {
+        padding-right: 0;
+    }
+    .epr200{
+        padding-right: 0;
+    }
+    .singleBlog2.bigpost .blogTitle a {
+        font-size: 26px;
+        font-weight: 500;
+        line-height: 36px;
+    }
+    .header.workDetail {
+        padding: 21px 15px 31px;
+    }
+    .workDetail.isSticky.fixedHeader {
+        padding: 21px 15px;
+    }
+    .nexprevPagination{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .parallaxThreeCon {
+        padding: 0 50px;
+    }
+    .parallaxThreeCon h2 {
+        font-size: 35px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+    .parallaxThreeCon h1 {
+        font-size: 60px;
+        line-height: 50px;
+    }
+    .signatureandname h4,
+    .signatureandname img{
+        float: none;
+    }
+    .parTwoContent h1{
+        font-size: 100px;
+        line-height: 100px
+    }
+    .typewrite > .wrap::after{
+        height: 62px;
+    }
+
+}
+
+@media(min-width: 320px) and (max-width: 767px){
+    
+    .header,
+    .isSticky.fixedHeader{
+        padding: 20px 15px;
+    }
+    .mainMenu ul,
+    .callus{
+        display: none;
+    }
+    .mobileBar,
+    .mobileBar2{
+        cursor: pointer;
+        height: 20px;
+        position: absolute;
+        right: 0;
+        top: -30px;
+        width: 24px;
+    }
+    .mobileBar span,
+    .mobileBar2 span{
+        width: 100%;
+        height: 2px;
+        display: block;
+        background: #fff;
+        margin-bottom: 3px;
+    }
+    .revCon{
+        text-align: center;
+        width: 100vw;
+        padding: 0 15px;
+    }
+    .revCon h2.lead{
+        font-size: 45px;
+        line-height: 45px;
+
+    }
+    .revCon h5{
+        margin-top: -90px;
+        letter-spacing: 1px;
+    }
+    .revCon.revBtn .bes_button{
+        margin-top: 70px;
+    }
+    .revCon.revBtn .bes_button,
+    .revCon.revBtn.home_page2 .bes_button2,
+    .wedoContent .bes_button2,
+    .bes_button4{
+        letter-spacing: 1.8px;
+        padding: 0 20px;
+    }
+    .revCon.revBtn.home_page2 .bes_button2{
+        top: 40px;
+        position: relative;
+    }
+    .abcontentB,
+    .epr200{
+        padding: 0;
+    }
+    .testmonial{
+        margin-left: 0;
+    }
+    .testmonial::before {
+        left: 0;
+        position: absolute;
+        top: 0;
+    }
+    .testmonial::after {
+        content: "";
+        left: 0;
+        top: -35px;
+    }
+    .testmonial{
+        margin-top: 100px;
+    }
+    .abBigtitle h1.lead {
+        font-size: 60px;
+        overflow-wrap: break-word;
+        line-height: 1.2;
+    }
+    .singleTestm {
+        padding-top: 30px;
+    }
+    .wedoContent h2.lead {
+        font-size: 37px;
+        font-weight: 700;
+        letter-spacing: 0;
+        line-height: 40px;
+    }
+    .whatwe{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .sectionTitle h2.lead {
+        font-size: 50px;
+        word-break: break-all;
+        line-height: 50px;
+    }
+    .sectionTitle p{
+        padding: 0;
+    }
+    #testmonialCaro{
+        width: 100%;
+    }
+    .singleWork{
+        margin: 0;
+    }
+    .singleWork img {
+        height: 100%;
+        width: auto;
+    }
+    #workCarousel .slick-prev, #workCarousel .slick-next {
+        margin-top: 0;
+        top: 90%;
+    }
+    #workCarousel .slick-prev {
+        left: 10px;
+    }
+    #workCarousel .slick-next {
+        right: 10px;
+    }
+    .singleWorkContent h2.lead {
+        word-wrap: break-word;
+    }
+    .chooseUsContent {
+        padding-right: 0;
+    }
+    #testmonialCaro {
+        padding: 100px 15px 29px;
+        text-align: center;
+    }
+    .singleBlog{
+        margin-bottom: 30px;
+    }
+    .saypaddingR {
+        padding-right: 0;
+    }
+    .saypaddingl {
+        padding-left: 0;
+    }
+    .contactForm {
+        padding: 0;
+    }
+    .footer {
+        padding: 72px 0 55px;
+    }
+    .textWidget {
+        padding-right: 0;
+    }
+    .newsletterwid{
+        padding-left: 0;
+    }
+    .newsletter input[type="email"]{
+        font-size: 14px;
+    }
+    .singleClient{
+        margin: auto auto 0;
+    }
+    .header, .isSticky.fixedHeader {
+        padding: 35px 15px;
+    }
+    .fixedHeader .mobileBar span{
+        background: #333;
+    }
+    .fixedHeader .mobileBar{
+        top: -4px;
+    }
+    .isSticky.fixedHeader .stickyLogo {
+        display: block;
+        top: -15px;
+    }
+    .singleService{
+        margin: 0 0 100px
+    }
+    .wedoContent .bes_button {
+        padding: 0 22px;
+        letter-spacing: 1px;
+    }
+    .chooseUsImg {
+        margin-top: 0;
+    }
+    .singleTestmn p{
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .bigTitle3{
+        margin-bottom: 100px;
+    }
+    #testmonialCaro.owl-theme .owl-dots{
+        right: 0;
+    }
+    .showit{
+        right: 15px;
+    }
+    .socialIcon a{
+        margin-right: 0;
+    }
+    .sectionTitle{
+        text-align: center;
+    }
+    .sectionTitle h3.lead{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .singleTestm p{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .chooseUsContent{
+        text-align: center;
+    }
+    .signatureandname{
+        text-align: center;
+    }
+    .signatureandname img,
+    .signatureandname h4{
+        float: none;
+    }
+    .mainMenu > ul {
+        background: #fff;
+        height: 300px;
+        left: -15px;
+        margin: 0;
+        overflow-x: scroll;
+        padding: 0;
+        position: absolute;
+        width: 111%;
+        right: 0;
+        top: 10px;
+        border-top: 1px solid #f3f3f3;
+    }
+    .fixedHeader .mainMenu > ul{
+        top: 37px;
+    }
+    .mainMenu ul li {
+        display: block;
+        margin-right: 0;
+        position: relative;
+        text-align: center;
+        padding: 8px 0;
+    }
+    .mainMenu ul li a{
+        color: #1D1D1D;
+        display: block;
+    }
+    .mainMenu ul ul.sub-menu {
+        background: #fff;
+        box-shadow: none;
+        opacity: 1;
+        position: relative;
+        top: 0;
+        transition: none;
+        visibility: visible;
+        width: 100%;
+        display: none;
+    }
+    .mainMenu ul li{
+        border-bottom: 1px solid #f3f3f3;
+    }
+    .mainMenu ul li:hover ul.sub-menu {
+        top: 0;
+    }
+    .mainMenu ul ul.sub-menu::before {
+        border-bottom: 5px solid #fd0060;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        content: "";
+        height: 0;
+        margin: auto;
+        position: absolute;
+        top: 0;
+        width: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    .polioThumb img {
+        height: 100%;
+        width: auto;
+    }
+    .slider2 .tp-rightarrow.default.round::after{
+        right: 0;
+    }
+    .slider2 .tp-leftarrow.default.round::before{
+        left: 0;
+    }
+    .single_folio.single_folio2{
+        height: 400px;
+    }
+    .workDetail.isSticky.fixedHeader {
+        padding: 35px 15px;
+        position: fixed;
+    }
+    .header.workDetail {
+        padding: 21px 15px 31px;
+        position: relative;
+    }
+    .blogTitleSec {
+        padding-bottom: 50px;
+        padding-top: 0;
+    }
+    .blogTitleList h2{
+        font-size: 110px;
+    }
+    .mobileBar.black span{
+        background: #333;
+    }
+    .singleBlog2.bigpost .blogTitle a {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .blogDec {
+        padding: 61px 15px 45px;
+    }
+    .singleBlog2.bigpost .blogDec {
+        padding: 61px 15px 45px;
+    }
+    .singleBlog2.bigpost .blogTitle a {
+        font-size: 26px;
+        font-weight: 500;
+        line-height: 36px;
+    }
+    .blogCat {
+        margin: auto;
+        position: relative;
+        width: 185px;
+        top: 0;
+    }
+    .blogTitleList{
+        text-align: center;
+    }
+    .wdhContent h3 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .workDetailHead.bdetail{
+        padding-top: 50px;
+    }
+    .wdhContent.bdetail{
+        padding-bottom: 30px;
+    }
+    .journalImg{
+        margin-right: 0;
+    }
+    .journal_content {
+        padding-bottom: 0;
+    }
+    .journal_content h2 {
+        color: #000;
+        font-size: 30px;
+        line-height: 40px;
+    }
+    blockquote{
+        padding-right: 0;
+    }
+    .singleCom{
+        padding-left: 0;
+    }
+    .singleCom img {
+        position: relative;
+    }
+    .commentList ol li ul.ChildCom{
+        padding-left: 15px;
+    }
+    .comAutReply a{
+        margin-right: 30px;
+    }
+    .singleJournal_meta a.jon_date{
+        line-height: 1.8;
+    }
+    .journal_content{
+        overflow: hidden;
+    }
+    .contactForm .single_form.home_page2{
+        margin: 0;
+    }
+    .contactForm.noPaddingLeft.noPaddingRight {
+        padding-left: 15px !important;
+        padding-right: 15px !important; 
+    }
+    .blogDescriptionTop {
+        margin-bottom: 0;
+    }
+    .journal_content{
+        padding-bottom: 0;
+    }
+    .workDetailHead{
+        padding-top: 50px;
+    }
+    .workMeta.servic{
+        padding-left: 0;
+    }
+    .workMetas .bes_button3{
+        padding: 0 30px;
+    }
+    .wdContent{
+        padding: 0;
+    }
+    .rewdContent{
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 50px;
+    }
+    .work_d img{
+        width: 100%;
+        height: auto;
+    }
+    .nexprevPagination{
+        padding: 0;
+    }
+    .paginationnp{
+        padding-left: 15px;
+    }
+    .paginationnp img{
+        position: relative;
+        margin-bottom: 15px;
+    }
+    .paginationnp.right{
+        padding-right: 15px;
+        margin-top: 30px;
+    }
+
+
+    /**Home Three**/
+    .mainMenu_home3 > ul {
+        background: #171717;
+        position: fixed;
+        right: -245px;
+        top: 0;
+        width: 245px;
+        height: 100vh;
+        bottom: 0;
+    }
+    .mainMenu_home3 > ul li{
+        border-bottom: 2px solid #272727;
+        text-align: right;
+        margin-left: 30px;
+    }
+    .mainMenu_home3 > ul li a{
+        font-size: 14px;
+        text-transform: uppercase;
+        color: #fff;
+        font-weight: 700;
+        letter-spacing: 1px;
+        padding-right: 50px;
+        display: block;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+    }
+    .mainMenu_home3 > ul li a:hover{
+        color: #fd0060;
+    }
+    .mainMenu_home3 > ul li.active a{
+        color: #fd0060;
+    }
+
+    .abcontentT.abcontentTP{
+        padding: 0 15px;
+    }
+    .abcontentTP h3{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .parallaxThreeCon{
+        padding: 0;
+    }
+    .parTwoContent {
+        padding: 30px 15px;
+        width: 100%;
+        height: 380px;
+    }
+    .parTwoContent h2{
+        margin-bottom: 10px;
+    }
+    .parTwoContent h1 {
+        font-size: 50px;
+        left: -15px;
+        line-height: 60px;
+        margin-bottom: 19px;
+    }
+    .typewrite > .wrap::after {
+        height: 32px;
+        right: -22px;
+        top: 23px;
+        width: 5px;
+    }
+    .parallaxThreeCon h2 {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 5px;
+    }
+    .parallaxThreeCon h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .parallaxThreeCon p {
+        color: #fff;
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .chooseUsContent.home_page3{
+        padding-top: 100px;
+    }
+    .chooseUsContent.home_page3 h3{
+        font-size: 20px;
+        line-height: 26px;
+        margin-bottom: 10px;
+    }
+    .chooseUsContent p {
+        line-height: 28px;
+        font-size: 16px;
+    }
+    .home_page3 .signatureandname img{
+        width: 100px;
+        height: auto;
+    }
+    .parallaxOne, 
+    .parallaxTwo, 
+    .parallaxThree, 
+    .parallaxFour {
+        height: 600px;
+        position: relative;
+        width: 100%;
+    }
+}
+
+/*@media (min-width: 481px) and (max-width: 640px){
+    .revCon h5 {
+        margin-top: 0;
+    }
+    .revCon.revBtn .bes_button,
+    .revCon.revBtn.home_page2 .bes_button2{
+        margin-top: -80px;
+    }
+    .mouseSlider{
+        top: -67px;
+    }
+}
+
+@media(min-width: 361px) and (max-width: 480px){
+    .revCon h5 {
+        margin-top: -35px;
+    }
+    .revCon h2.lead {
+        margin-top: -20px;
+        font-size: 35px;
+    }
+    .revCon.revBtn .bes_button ,
+    .revCon.revBtn.home_page2 .bes_button2{
+        margin: 0;
+        margin-top: 0;
+    }
+    .mouseSlider{
+        top: -67px;
+    }
+}*/
+
+
